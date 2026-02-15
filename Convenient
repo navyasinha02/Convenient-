@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>convenient</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #faf3f7;
+            color: #444;
+        }
+
+        header {
+            background: linear-gradient(to right, #d291bc, #e6a4b4);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            background: #f8d7e3;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #7a2e5c;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #b76e79;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background: #d291bc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #d291bc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 within 24 hours 🌸</h1>
+    <p>Dream • Create • Grow</p>
+</header>
+
+<nav>
+    <a href="#about">PPT</a>
+    <a href="#blog">collage</a>
+    <a href="#gallery">animated picture</a>
+    <a href="#contact">video</a>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me 💛</h2>
+        <div class="card">
+            <p>Hello! I'm Navya. I love expressing emotions, sharing life experiences, and learning new creative skills like website development.</p>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h2>My Thoughts ✨</h2>
+
+        <div class="card">
+            <h3>Growth Begins Within</h3>
+            <p>Sometimes life pushes us to learn new things. Growth starts when we step out of our comfort zone.</p>
+        </div>
+
+        <div class="card">
+            <h3>Small Steps Matter</h3>
+            <p>Every small effort builds confidence. Today learning, tomorrow earning.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <h2>Memories 🌷</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300">
+            <img src="https://via.placeholder.com/300">
+            <img src="https://via.placeholder.com/300">
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me 📩</h2>
+        <div class="card contact-form">
+            <input type="text" placeholder="Your Name">
+            <br>
+            <input type="email" placeholder="Your Email">
+            <br>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <br>
+            <button>Send Message</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Navya | Designed with ❤️
+</footer>
+
+</body>
+</html>
